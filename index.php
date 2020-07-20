@@ -11,15 +11,15 @@
 </head>
 <body>
 
-    <div class="page1">
+    <div class="page1" id='1'>
         <div class="container">
             <header class="header">
                 <a href="#" class="logo">Окна+</a>
-                <nav>
-                    <a href="#" class="nav">Портфолио</a>
-                    <a href="#" class="nav">Услуги</a>
-                    <a href="#" class="nav">О нас</a>
-                    <a href="#" class="nav">Контакты</a>
+                <nav class='animate'>
+                    <a href="#2" class="nav">Портфолио</a>
+                    <a href="#3" class="nav">Услуги</a>
+                    <a href="#4" class="nav">О нас</a>
+                    <a href="#5" class="nav">Контакты</a>
                 </nav>
                 <div class="numberdiv1">
                     <div class="numberdiv2">
@@ -35,8 +35,8 @@
                     <h2 class="page1-h2">Производство и установка под ключ.</h2>
                     <h3 class="page1-h3">Мы занимаеся производством и установкой пластиковых окон уже <span>больше двух лет.</span> За все время работы мы не получали ни одного плохого отзыва, что говорит о нашей проффесиональности.</h3>
                     <h3 class="page1-h3">Вызов мастера для замера и доставка бесплатно в пределах города.</h3>
-                    <div class="page1-offerdiv">
-                        <a href="#" class="page1-offer">Оставить заявку</a>
+                    <div class="page1-offerdiv animate">
+                        <a href="#5" class="page1-offer">Оставить заявку</a>
                     </div>
                 </div>
                 <div class="page1-content-img">
@@ -46,7 +46,7 @@
         </div>
     </div>
 
-    <div class="page2">
+    <div class="page2" id='2'>
         <div class="container">
             <div class='page2-info'>
                 <span class='page2-portfolio'>Портфолио</span>
@@ -62,7 +62,7 @@
         </div>
     </div>
 
-    <div class="page3">
+    <div class="page3" id='3'>
         <div class="container">
             <div class='page3-info'>
                 <span class='page3-order'>Наши услуги</span>
@@ -83,12 +83,12 @@
                     <span class="wold">Замена стекла</span>
                     <span class="ligth">500 руб</span>
                 </div>
-                <div class="page3-orders"><a href="" class="order">Оставить заявку</a></div>
+                <div class="page3-orders animate"><a href="#5" class="order">Оставить заявку</a></div>
             </div>
         </div>
     </div>
 
-    <div class="page4">
+    <div class="page4" id='4'>
         <div class="container">
             <div class="page4-info">
                 <span class="page4-about">О нас</span>
@@ -130,24 +130,24 @@
     </div>
 
 
-    <div class="page5">
+    <div class="page5" id='5'>
         <div class="container">
             <div class="page5-info">
                 <span class='page5-about'>Контакты</span>
                 <span class='page5-our'>Оставьте заявку, мы вам перезвоним</span>
             </div>
             <div class="page5-input">
-                <form action="">
+                <form action="mail.php" method="POST">
                     <div class="page5-input-fio">
-                        <input type="text" class = 'inputsub' placeholder="Введите Ваше ФИО" maxlength="40" required>
+                        <input type="text" class = 'inputsub' placeholder="Введите Ваше ФИО" maxlength="40" required name='fio'>
                         <img src="img/submit/001-user.png" alt="" class="fio">
                     </div>
                     <div class="page5-input-fio">
-                        <input type="tel" class = 'inputsub' placeholder="Введите Ваш телефон"  pattern="[0-9]{11}" maxlength="11" required>
+                        <input type="tel" class = 'inputsub' placeholder="Введите Ваш телефон"  pattern="[0-9]{11}" maxlength="11" required name='tel'>
                         <img src="img/submit/003-telephone.png" alt="" class="fio">
                     </div>
                     <div class="page5-input-fio">
-                        <input type="text" class = 'inputsub' placeholder="Введите Ваш e-mail (необязательно)" maxlength="40">
+                        <input type="text" class = 'inputsub' placeholder="Введите Ваш e-mail (необязательно)" maxlength="40" name='email'>
                         <img src="img/submit/002-envelope.png" alt="" class="fio">
                     </div>
                     <div class="page5-submit"><input type="submit" value="Отправить" class='submit'></div>
@@ -158,11 +158,11 @@
 
     <footer class='footer'>
         <div class="container">
-            <nav class='footer-nav'>
-                <a href="#" class="nav">Портфолио</a>
-                <a href="#" class="nav">Услуги</a>
-                <a href="#" class="nav">О нас</a>
-                <a href="#" class="nav">Контакты</a>
+            <nav id="nav" class='footer-nav animate'>
+                <a href="#2" class="nav">Портфолио</a>
+                <a href="#3" class="nav">Услуги</a>
+                <a href="#4" class="nav">О нас</a>
+                <a href="#5" class="nav">Контакты</a>
             </nav>
             <div class="footer-br"></div>
             <div class="footer-info">

@@ -1,5 +1,3 @@
-
-
 $('document').ready(function(){
     $('.page2-slider').slick({
         centerMode: true,
@@ -8,4 +6,11 @@ $('document').ready(function(){
         slidesToShow: 3,
         
     });
+
+    $('.animate').on("click","a", function(event) {
+        event.preventDefault();
+        let id = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1000);
+    })
 })
