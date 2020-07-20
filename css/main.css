@@ -542,3 +542,28 @@
     display: flex;
     flex-direction: column;
 }
+
+.thanks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45vh;
+}
+
+.thanks-thanks {
+    font-family: "RobotoBold",sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    word-spacing: 5px;
+    line-height: 24px;
+    padding: 15px;
+}
+
+.thanks-reed {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.bodythanks {
+    background: linear-gradient(180deg, #83CCD9 0%, #B4DBE2 49.48%, #C0DDE1 86.98%, #B0D2D8 100%);
+}
