@@ -344,11 +344,7 @@
     margin-top: 30px;
 }
 
-.page4-info{
-    display: flex;
-    justify-content: center;
-    /* margin-bottom: ; */
-}
+
 
 .page4-advantages{
     display: flex;
@@ -438,13 +434,84 @@
     line-height: 16px;
 }
 
-.page5 {
-    background: url(../img/order.png) no-repeat;
-    background-size: cover;
-    height: 600px;
-}
-
 .ourimg{
     width: 64px;
     height: 64px;
+}
+
+.page5 {
+    background: url(../img/order.png) no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+.page5-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.page5-about {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.page5-our {
+    font-family: "RobotoBold",sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    word-spacing: 5px;
+    line-height: 24px;
+}
+
+.page5-input {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.inputsub{
+    font-size: 16px;
+    line-height: 16px;
+
+    width: 538px;
+    border: none;
+    outline: none;
+    margin-bottom: 45px;
+    padding: 20px 25px;
+    border-radius: 30px;
+
+}
+
+.page5-input-fio{
+    position: relative;
+}
+
+.fio{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    right: 15px;
+    top: 12px;
+}
+
+.submit{
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    background-color: #fff;
+    padding: 15px 30px;
+    transition: background 0.2s linear;
+}
+
+.submit:hover{
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+.page5-submit{
+    display: flex;
+    justify-content: center;
 }
