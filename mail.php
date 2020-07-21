@@ -12,12 +12,12 @@ $mail->isSMTP();
 $mail->Host = 'smtp.mail.ru';  																							
 $mail->SMTPAuth = true;                               
 $mail->Username = 'leonapd98@mail.ru';
-$mail->Password = 'Vfylfhby30061998';
+$mail->Password = '';
 $mail->SMTPSecure = 'ssl';
 $mail->Port = 465;
 
 $mail->setFrom('leonapd98@mail.ru');
-$mail->addAddress('onemedesu@gmail.com');     
+$mail->addAddress('');     
 $mail->isHTML(true);                              
 
 $mail->Subject = 'Заявка продажа окон.';
